@@ -9,7 +9,7 @@ Created the file in dir`mern/server/config.env` change with your Atlas URI and t
 ATLAS_URI=mongodb+srv://<username>:<password>@sandbox.jadwj.mongodb.net/
 PORT=5050
 ```
-
+To Run Partial Web
 Start server:
 ```
 cd mern/server
