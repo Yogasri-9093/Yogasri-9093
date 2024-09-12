@@ -4,7 +4,7 @@ Mern Stack code for the [Mern Tutorial](https://www.mongodb.com/languages/mern-s
 [![CI](https://github.com/mongodb-developer/mern-stack-example/actions/workflows/main.yaml/badge.svg)](https://github.com/mongodb-developer/mern-stack-example/actions/workflows/main.yaml)
 
 ## How To Run
-Created the file in `mern/server/config.env` change with your Atlas URI and the server port:
+Created the file in di`mern/server/config.env` change with your Atlas URI and the server port:
 ```
 ATLAS_URI=mongodb+srv://<username>:<password>@sandbox.jadwj.mongodb.net/
 PORT=5050
