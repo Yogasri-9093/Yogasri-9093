@@ -1067,17 +1067,6 @@ export default function RecordList() {
           onChange={handleFilterChange}
           className="border p-2 rounded"
         />
-        <select
-          name="level"
-          value={filters.level}
-          onChange={handleFilterChange}
-          className="border p-2 rounded"
-        >
-          <option value="">Filter by level...</option>
-          <option value="Intern">Intern</option>
-          <option value="Junior">Junior</option>
-          <option value="Senior">Senior</option>
-        </select>
         <button
           onClick={deleteSelectedRecords}
           className="inline-flex items-center justify-center whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input bg-background hover:bg-slate-100 hover:text-accent-foreground h-9 rounded-md px-3"
@@ -1113,6 +1102,17 @@ export default function RecordList() {
                 </th>
                 <th className="h-12 px-4 text-left align-middle font-medium text-muted-foreground [&:has([role=checkbox])]:pr-0">
                   Level
+                  <select
+                    name="level"
+                    value={filters.level}
+                    onChange={handleFilterChange}
+                    className="ml-2 border p-1 rounded"
+                  >
+                    <option value="">Filter by level...</option>
+                    <option value="Intern">Intern</option>
+                    <option value="Junior">Junior</option>
+                    <option value="Senior">Senior</option>
+                  </select>
                 </th>
                 <th className="h-12 px-4 text-left align-middle font-medium text-muted-foreground [&:has([role=checkbox])]:pr-0">
                   Action
